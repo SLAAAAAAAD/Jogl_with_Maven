@@ -6,7 +6,7 @@ import com.jogamp.opengl.GLProfile;
 
 public class TestJogl {
 
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         TestJogl test = new TestJogl();
 
         test.run();

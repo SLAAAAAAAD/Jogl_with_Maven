@@ -90,14 +90,12 @@ public class Timer {
         if (System.nanoTime() > (lastLog + unit.toNanos(units))) {
 
             for (String timer : times.keySet()) {
-                logger.info("testJogl.Timer '{}' calls '{}' time '{}ms' time/call '{}ms'", timer, getCalls(timer), (getTime(timer) / 1000000d), (getTime(timer) / 1000000d) / (double)getCalls(timer));
+                logger.info("testJogl.Timer '{}' calls '{}' time '{}ms' time/call '{}ms'", timer, getCalls(timer), (getTime(timer) / 1000000d), (getTime(timer) / 1000000d) / (double) getCalls(timer));
             }
 
             reset();
         }
     }
-
-
 
 
 }

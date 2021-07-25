@@ -9,10 +9,10 @@ public abstract class Program {
 
     protected GL2ES2 gl;
 
-    protected int                 program;
+    protected int program;
 
-    private Map<String, Integer>  uniformLocations = new HashMap<>();
-    private Map<String, Integer>  attribLocations = new HashMap<>();
+    private Map<String, Integer> uniformLocations = new HashMap<>();
+    private Map<String, Integer> attribLocations = new HashMap<>();
 
     public Program(GL2ES2 gl) {
         this.gl = gl;

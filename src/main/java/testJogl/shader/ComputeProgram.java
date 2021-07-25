@@ -5,7 +5,7 @@ import com.jogamp.opengl.GL4;
 public class ComputeProgram extends Program {
 
     private GL4 gl4;
-    private int                 computeShader;
+    private int computeShader;
 
     public ComputeProgram(GL4 gl, String compute) {
         super(gl);

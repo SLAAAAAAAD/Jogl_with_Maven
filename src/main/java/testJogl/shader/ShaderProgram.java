@@ -9,8 +9,8 @@ import testJogl.Renderer;
 public class ShaderProgram extends Program {
     private final static Logger logger = LoggerFactory.getLogger(Renderer.class);
 
-    private int                 vertShader;
-    private int                 fragShader;
+    private int vertShader;
+    private int fragShader;
 
     public ShaderProgram(GL2ES2 gl, String vertex, String fragment) {
         super(gl);
